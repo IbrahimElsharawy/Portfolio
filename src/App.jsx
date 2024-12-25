@@ -6,11 +6,12 @@ import Skills from './components/Skills'
 import ScrollToTop from './components/ScrollToTop'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Home from "./components/Home";
+
 function App() {
-
   return (
-    <div className='overflow-x-hidden'>
-
+    <div className="overflow-x-hidden">
+      <Home/>
       <About />
       <Experience />
       <Education />
@@ -19,7 +20,7 @@ function App() {
       <Contact/>
       <Footer/>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
