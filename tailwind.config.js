@@ -19,13 +19,13 @@ export default {
         'primary-light': '#3C5B6F',
         'secondary': '#948979',
         'secondary-light': '#DFD0B8',
-        'secodary-light-1':'#948979',
         'sky-1': '#E2ECF6',
-        'sky-2':'#EFFE6A',
+        'sky-2':'#EFF6fA',
         'sky-3':'#E2ECF6',
         'black-1':'#2E2E37',
         'black-2':'#4D4D5C',
-        'black-3':'#9B9DB1'
+        'black-3':'#9B9DB1',
+        'border-1':"#BCC7D3"
 
 
 
