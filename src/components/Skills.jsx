@@ -28,14 +28,14 @@ const Skills = () => {
     }, []);
 
     return (
-        <div className="bg-sky-2 py-16">
+        <div id='skills' className="bg-sky-2 py-8 md:py-16">
             <div className="container max-sm:px-4">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                    <div>
+                    <div className='flex flex-col max-lg:items-center'>
                         <h2 className="font-jost font-normal text-4xl md:text-5xl xl:text-6xl text-primary">
                             My Skills
                         </h2>
-                        <p className="text-lg font-normal text-black-2 leading-[32px] my-8">
+                        <p className="text-lg max-sm:text-center max-sm:w-[400px] max-sm:px-4 font-normal text-black-2 leading-[32px] my-8">
                             Sed ut perspiciatis unde omnis iste natus Sed ut perspiciatis unde omnis iste natus
                             kobita tumi sopno charini hoye khbor nio na sit voluptatem accusantium dolore.
                         </p>

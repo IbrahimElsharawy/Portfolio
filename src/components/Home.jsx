@@ -11,11 +11,12 @@ import imgFour from "../assets/homeSecondPart/imgFour.png"
 
 function Home() {
   return (
-    <div>
+    <div >
       <Navbar />
-      <div className="bg-primary-light ">
+      
+      <div className="bg-primary-light">
         <div>
-          <div className="flex items-center container  max-md:pl-4 max-md:pr-0 pt-20 sm:pt-36 lg:pt-48">
+          <div className="flex items-center container  max-md:pl-4 max-md:pr-0 pt-20 sm:pt-36 lg:pt-48 ">
             <div className="flex-1 relative z-[2]">
               <span className="absolute top-[-100px] md:top-[-120px] lg:top-[-200px] left-0 block">
                 <img src={twoStars} alt="" className="w-14 md:w-20" />
@@ -25,7 +26,7 @@ function Home() {
                 Hello I’m
               </span>
 
-              <h1 className="text-white my-2 md:my-4 whitespace-nowrap text-[35px] sm:text-[60px] md:text-[80px] lg:text-[100px] xl:text-[120px] font-jost">
+              <h1 className="text-white my-2 md:my-4 xl:mb-0 whitespace-nowrap text-[35px] sm:text-[60px] md:text-[80px] lg:text-[100px] xl:text-[120px] font-jost">
                 Youssef Ali
               </h1>
 
@@ -58,7 +59,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-sky-1 py-20 sm:py-48 z-10 relative">
+      <div className="bg-sky-1 relative py-20 sm:py-48 z-10 relative">
           <div className="grid  xl:items-start md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 container max-sm:px-4">
           <div  className="flex flex-col shadow-skyShadow items-center   py-20  gap-6 bg-white rounded-[30px] ">
               <img src={imgOne} alt="" className="w-16"/>
@@ -85,6 +86,8 @@ function Home() {
               </p>
           </div>
           </div>
+          <p className="absolute max-sm:hidden right-4 bottom-[-70px] text-[120px] text-[#F0F7FE] font-jost">Youssef</p>
+
       </div>
     </div>
   );
