@@ -5,6 +5,7 @@ const About = () => {
     return (
         <div className="bg-sky-2 py-16">
             <div className="container max-sm:px-4">
+            
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xl:gap-0 ">
                     <div className="relative">
                         <div className="flex items-center">
