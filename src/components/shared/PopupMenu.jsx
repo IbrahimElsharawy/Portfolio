@@ -7,7 +7,7 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover"
 import { TbMenu3 } from "react-icons/tb";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function PopupMenu() {
   return (
@@ -17,51 +17,51 @@ function PopupMenu() {
       </PopoverTrigger>
       <PopoverContent  className="absolute bg-sky-2   border-secondary-light text-black-1 !left-[-24px]  w-40">
       <ul className="  flex flex-col gap-2 ">
-        <li className="flex gap-3  items-center">
+        <li className="flex gap-3  items-center border border-secondary px-4 rounded-sm">
           <span className="animate-ping "><span className="w-1 h-1 block rounded-full bg-black-1"></span></span>
-          <NavLink
-            className={"hover:text-secondary-light transition-all "}
-            to={"#home"}
+          <a
+            className={"hover:text-secondary-light  transition-all "}
+            href={"#home"}
           >
             Home
-          </NavLink>
+          </a>
         </li>
-        <li className="flex gap-3  items-center">
+        <li className="flex gap-3 border border-secondary px-4 rounded-sm  items-center">
         <span className=" animate-ping"><span className="w-1 h-1 block rounded-full bg-black-1"></span></span>
 
-          <NavLink
+          <a
             className={"hover:text-secondary-light transition-all "}
-            to={"#about"}
+            href={"#about"}
           >
             About
-          </NavLink>
+          </a>
         </li>
-        <li className="flex gap-3  items-center">
+        <li className="flex gap-3 border border-secondary px-4 rounded-sm  items-center">
         <span className=" animate-ping"><span className="w-1 h-1 block rounded-full bg-black-1"></span></span>
-          <NavLink
+          <a
             className={"hover:text-secondary-light transition-all "}
-            to={"#works"}
+            href={"#work"}
           >
             Works
-          </NavLink>
+          </a>
         </li>
-        <li className="flex gap-3  items-center">
+        <li className="flex gap-3 border border-secondary px-4 rounded-sm  items-center">
         <span className=" animate-ping"><span className="w-1 h-1 block rounded-full bg-black-1"></span></span>
-          <NavLink
+          <a
             className={"hover:text-secondary-light transition-all "}
-            to={"#service"}
+            href={"#skills"}
           >
-            Service
-          </NavLink>
+            Skills
+          </a>
         </li>
-        <li className="flex gap-3  items-center">
+        <li className="flex gap-3 border border-secondary px-4 rounded-sm  items-center">
         <span className=" animate-ping"><span className="w-1 h-1 block rounded-full bg-black-1"></span></span>
-          <NavLink
+          <a
             className={"hover:text-secondary-light transition-all "}
-            to={"#contact"}
+            href={"#contact"}
           >
             Contact
-          </NavLink>
+          </a>
         </li>
       </ul>
       </PopoverContent>

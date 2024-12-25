@@ -3,7 +3,7 @@ import PopupMenu from "./shared/popupMenu";
 
 function Navbar() {
   return (
-    <div className="bg-primary">
+    <div className="bg-primary z-[2] relative">
       <div className=" container max-sm:px-4 relative flex items-center md:justify-center min-h-16 ">
       <ul className=" hidden md:flex gap-8 text-white">
         <li>
@@ -52,7 +52,7 @@ function Navbar() {
       </div>
       <div className=" absolute right-0 top-0 bottom-0 flex items-center">
         <button className=" rounded-[5px] border-secondary border max-sm:text-sm text-white px-3 py-2 mr-4 sm:mr-7 uppercase">
-          <a href="../assets/محمد حسان.pdf" download>download cv</a>
+          <a href="src/assets/Youssef Ali Youssef CV.pdf" download>download cv</a>
         </button>
       </div>
     </div>
