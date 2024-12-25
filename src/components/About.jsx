@@ -4,7 +4,7 @@ import about from '../assets/about.png';
 const About = () => {
     return (
         <div className="bg-sky-2 py-16">
-            <div className="container">
+            <div className="container max-sm:px-4">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xl:gap-0 ">
                     <div className="relative">
                         <div className="flex items-center">
@@ -26,37 +26,37 @@ const About = () => {
                                 runt mollit anim id est laboru doloremque laudantium, totaeaque ipsa quae
                                 ab illo inven tore veritatis et quasi architecto beatae vitae.</p>
 
-                                <p className='text-lg font-normal text-black-2 '>Oremque laudantium, totaeaque ipsa quae</p>
+                            <p className='text-lg font-normal text-black-2 '>Oremque laudantium, totaeaque ipsa quae</p>
                         </div>
 
                         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8   my-8  border-t border-b border-border-1 py-6 text-black-2'>
-                        <div className='space-y-3'>
-                            <p>Name</p>
-                            <p>Age</p>
-                            <p>Occupation</p>
+                            <div className='space-y-3'>
+                                <p>Name</p>
+                                <p>Age</p>
+                                <p>Occupation</p>
 
-                        </div>
+                            </div>
 
-                        <div className='space-y-3'>
-                            <p>James Smith</p>
-                            <p>29 Years</p>
-                            <p>System Engineer</p>
+                            <div className='space-y-3'>
+                                <p>James Smith</p>
+                                <p>29 Years</p>
+                                <p>System Engineer</p>
 
-                        </div>
+                            </div>
 
-                        <div className='space-y-3'>
-                            <p>Phone</p>
-                            <p>Email</p>
-                            <p>Nationality</p>
+                            <div className='space-y-3'>
+                                <p>Phone</p>
+                                <p>Email</p>
+                                <p>Nationality</p>
 
-                        </div>
+                            </div>
 
-                        <div className='space-y-3'>
-                            <p>+123 456 7890</p>
-                            <p>hello@thames.com</p>
-                            <p>Bangladeshi</p>
+                            <div className='space-y-3'>
+                                <p>+123 456 7890</p>
+                                <p>hello@thames.com</p>
+                                <p>Bangladeshi</p>
 
-                        </div>
+                            </div>
 
                         </div>
                         <div className='text-left lg:text-right mt-4'>
