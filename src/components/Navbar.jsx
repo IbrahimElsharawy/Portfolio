@@ -7,44 +7,44 @@ function Navbar() {
       <div className=" container max-sm:px-4 relative flex items-center md:justify-center min-h-16 ">
       <ul className=" hidden md:flex gap-8 text-white">
         <li>
-          <NavLink
+          <a
             className={"hover:text-secondary-light transition-all "}
-            to={"#home"}
+            href={"#home"}
           >
             Home
-          </NavLink>
+          </a>
         </li>
         <li>
-          <NavLink
+          <a
             className={"hover:text-secondary-light transition-all "}
-            to={"#about"}
+            href={"#about"}
           >
             About
-          </NavLink>
+          </a>
         </li>
         <li>
-          <NavLink
+          <a
             className={"hover:text-secondary-light transition-all "}
-            to={"#works"}
+            href={"#work"}
           >
             Works
-          </NavLink>
+          </a>
         </li>
         <li>
-          <NavLink
+          <a
             className={"hover:text-secondary-light transition-all "}
-            to={"#service"}
+            href={"#skills"}
           >
-            Service
-          </NavLink>
+            Skills
+          </a>
         </li>
         <li>
-          <NavLink
+          <a
             className={"hover:text-secondary-light transition-all "}
-            to={"#contact"}
+            href={"#contact"}
           >
             Contact
-          </NavLink>
+          </a>
         </li>
       </ul>
       <div className="md:hidden ">
@@ -52,7 +52,7 @@ function Navbar() {
       </div>
       <div className=" absolute right-0 top-0 bottom-0 flex items-center">
         <button className=" rounded-[5px] border-secondary border max-sm:text-sm text-white px-3 py-2 mr-4 sm:mr-7 uppercase">
-          <a href="src/assets/Youssef Ali Youssef CV.pdf" download>download cv</a>
+          <a href="/public/Youssef Ali Youssef CV.pdf" download>download cv</a>
         </button>
       </div>
     </div>
