@@ -36,7 +36,7 @@ const Skills = () => {
                             My Skills
                         </h2>
                         <p className="text-lg max-sm:text-center max-sm:w-[400px] max-sm:px-4 font-normal text-black-2 leading-[32px] my-8">
-                            Sed ut perspiciatis unde omnis iste natus Sed ut perspiciatis unde omnis iste natus
+                            Sed ut perspiciatis unde omnis iste natusss Sed ut perspiciatis unde omnis iste natus
                             kobita tumi sopno charini hoye khbor nio na sit voluptatem accusantium dolore.
                         </p>
                     </div>
