@@ -73,7 +73,7 @@ const Contact = () => {
                     <p className="text-xl text-black-1 font-normal ">
                       Location
                     </p>
-                    <p className="text-black-2">20 Bordeshi, London, Usa</p>
+                    <p className="text-black-2">Saudi Arabia, Jeddah, Sharfeya District</p>
                   </div>
                 </div>
               </div>
@@ -85,7 +85,14 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-xl text-black-1 font-normal ">Phone</p>
-                    <p className="text-black-2">+123 456 7890</p>
+                    <p className="text-black-2">
+                      <a href="https://wa.me/+966530241747" target='_blank'>+966530241747 </a>
+                      &&
+                      <a href="https://wa.me/+201555760024" target='_blank'> +201555760024 </a>
+
+                    </p>
+
+
                   </div>
                 </div>
               </div>
@@ -97,7 +104,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-xl text-black-1 font-normal ">Email</p>
-                    <p className="text-black-2">hello@thames.com</p>
+                    <p className="text-black-2">                  <a href="mailto:youssefali909080@gmail.com">youssefali909080@gmail.com</a>
+                    </p>
                   </div>
                 </div>
               </div>

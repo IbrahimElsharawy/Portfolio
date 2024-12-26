@@ -3,10 +3,10 @@ import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
 const Skills = () => {
-    const [percentages, setPercentages] = useState({ "Web Development": 0, "Hardware Development": 0, "Software Development": 0, "System Application": 0, "Project management": 0, "Data Administration": 0 });
+    const [percentages, setPercentages] = useState({ "Transcript – Subtitle Skills  ": 0, "Microsoft Office Skills  ": 0, "Dubbing Videos ": 0, "Social Media Designer ": 0, "Video Montage & Editing. ": 0, "CatTools & CaiTools skills  ": 0 });
     const sectionRef = useRef(null);
 
-    const targetPercentages = { "Web Development": 80, "Hardware Development": 95, "Software Development": 90, "System Application": 75, "Project management": 60, "Data Administration": 50 };
+    const targetPercentages = { "Transcript – Subtitle Skills  ": 95, "Microsoft Office Skills  ": 95, "Dubbing Videos ": 90, "Social Media Designer ": 90, "Video Montage & Editing. ": 85, "CatTools & CaiTools skills  ": 85 };
 
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -53,15 +53,12 @@ const Skills = () => {
     return (
         <div id="skills" className="bg-sky-2 py-8 md:py-16">
             <div className="container max-sm:px-4">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1  gap-6">
                     <div className="flex flex-col max-lg:items-center">
-                        <h2 className="font-jost font-normal text-4xl md:text-5xl xl:text-6xl text-primary">
+                        <h2 className="font-jost font-normal text-4xl md:text-5xl xl:text-6xl text-primary text-center mb-16">
                             My Skills
                         </h2>
-                        <p className="text-lg max-sm:text-center max-sm:w-[400px] max-sm:px-4 font-normal text-black-2 leading-[32px] my-8">
-                            Sed ut perspiciatis unde omnis iste natus Sed ut perspiciatis unde omnis iste natus
-                            kobita tumi sopno charini hoye khbor nio na sit voluptatem accusantium dolore.
-                        </p>
+                       
                     </div>
 
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
