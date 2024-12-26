@@ -8,6 +8,11 @@ import imgOne from "../assets/homeSecondPart/imgOne.png"
 import imgTwo from "../assets/homeSecondPart/imgTwo.png"
 import imgThree from "../assets/homeSecondPart/imgThree.png"
 import imgFour from "../assets/homeSecondPart/imgFour.png"
+import { FaFacebookF } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { CiInstagram } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -16,7 +21,7 @@ function Home() {
       
       <div className="bg-primary-light">
         <div>
-          <div className="flex items-center container  max-md:pl-4 max-md:pr-0 pt-20 sm:pt-36 lg:pt-48 ">
+          <div className="flex relative items-center container  max-md:pl-4 max-md:pr-0 pt-20 sm:pt-36 lg:pt-48 ">
             <div className="flex-1 relative z-[2]">
               <span className="absolute top-[-100px] md:top-[-120px] lg:top-[-200px] left-0 block">
                 <img src={twoStars} alt="" className="w-14 md:w-20" />
@@ -56,10 +61,24 @@ function Home() {
                 <img src={image} alt="" className="object-cover h-[320px] sm:h-[450px]  lg:h-[600px]" />
               </div>
             </div>
+            <ul className="hidden md:flex absolute flex-col gap-2 text-sm text-white top-[240px] right-10 z-[9999]">
+              <li className="border-[#CCD3D933] rounded-[2px] flex justify-center items-center border">
+                <Link to={""}  className="px-2 py-2  "><FaFacebookF className=""/></Link>
+              </li>
+              <li className="border-[#CCD3D933] rounded-[2px] flex justify-center items-center border">
+                <Link to={""}  className="px-2 py-2  "><FaXTwitter/></Link>
+              </li>
+              <li className="border-[#CCD3D933] rounded-[2px] flex justify-center items-center border">
+                <Link to={""}  className="px-2 py-2  "><FaLinkedinIn/></Link>
+              </li>
+              <li className="border-[#CCD3D933] rounded-[2px] flex justify-center items-center border">
+                <Link to={""}  className="px-2 py-2  "><CiInstagram/></Link>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-      <div className="bg-sky-1 relative py-20 sm:py-48 z-10 relative">
+      <div className="bg-sky-1  py-20 sm:py-48 z-10 relative">
           <div className="grid  xl:items-start md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 container max-sm:px-4">
           <div  className="flex flex-col shadow-skyShadow items-center   py-20  gap-6 bg-white rounded-[30px] ">
               <img src={imgOne} alt="" className="w-16"/>

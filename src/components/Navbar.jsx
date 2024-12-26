@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import PopupMenu from "./shared/PopupMenu";
 
 function Navbar() {

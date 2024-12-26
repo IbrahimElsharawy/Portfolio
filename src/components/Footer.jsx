@@ -5,6 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { CiInstagram } from "react-icons/ci";
 import star from "../assets/star.png";
+
 const Footer = () => {
   return (
     <div className="bg-sky-1 relative">
