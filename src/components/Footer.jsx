@@ -43,7 +43,8 @@ const Footer = () => {
               <li>
                 {/* TODO ADD Links Here */}
                 <Link
-                  to={""}
+                  to={"https://www.facebook.com/share/1QKMJyiCjG/?mibextid=LQQJ4d"}
+                  target="_blank"
                   className="w-8 h-8 rounded-full bg-[#1877F2] flex justify-center items-center"
                 >
                   <FaFacebookF />
@@ -51,7 +52,8 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to={""}
+                  to={"https://x.com/youssef18980421?s=21"}
+                  target="_blank"
                   className="w-8 h-8 rounded-full bg-[#1DA1F2] flex justify-center items-center"
                 >
                   <FaXTwitter />
@@ -59,7 +61,8 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to={""}
+                  to={"https://www.linkedin.com/in/youssef-ali-%E4%BC%98%E7%91%9F%E5%A4%AB-7b0404272/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"}
+                  target="_blank"
                   className="w-8 h-8 rounded-full bg-[#0077B5] flex justify-center items-center"
                 >
                   <FaLinkedinIn />
@@ -84,7 +87,8 @@ const Footer = () => {
             <li>
               {/* TODO ADD Links Here */}
               <Link
-                to={""}
+                to={"https://www.facebook.com/share/1QKMJyiCjG/?mibextid=LQQJ4d"}
+                  target="_blank"
                 className="w-8 h-8 rounded-full bg-[#1877F2] flex justify-center items-center"
               >
                 <FaFacebookF />
@@ -92,7 +96,8 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                to={""}
+               to={"https://x.com/youssef18980421?s=21"}
+                  target="_blank"
                 className="w-8 h-8 rounded-full bg-[#1DA1F2] flex justify-center items-center"
               >
                 <FaXTwitter />
@@ -100,7 +105,8 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                to={""}
+                to={"https://www.linkedin.com/in/youssef-ali-%E4%BC%98%E7%91%9F%E5%A4%AB-7b0404272/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"}
+                  target="_blank"
                 className="w-8 h-8 rounded-full bg-[#0077B5] flex justify-center items-center"
               >
                 <FaLinkedinIn />
