@@ -16,7 +16,7 @@ const About = () => {
               <div className=" w-14 h-14 absolute top-44 right-[0px] rotate-45 bg-sky-2  transform translate-x-1/2 -translate-y-1/2 z-10"></div>
               <div className=" w-8 h-14 absolute  right-16  bg-secondary  transform translate-x-1/2 -translate-y-1/2 z-10"></div>
               <div className=" w-20 h-20 absolute  left-[-100px] top-28  bg-secondary  transform translate-x-1/2 -translate-y-1/2 z-10"></div>
-              <a href="/src/assets/Youssef Ali Youssef CV.pdf" download>
+              <a href="/YoussefAliYoussefCV.pdf" download>
               <AnimatedCircle />
               </a>
             </div>
