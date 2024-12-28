@@ -21,10 +21,10 @@ const Footer = () => {
       setResult("Sending....");
   
       const formData = new FormData();
-      formData.append("access_key", "94d7f6ba-1daf-4190-951e-29a3d1c11772");
+      formData.append("access_key", "196bc5dd-8714-4f0b-8fe6-ae36bce49cc6");
   
       // Add sender name
-      formData.append("from_name", "Ibrahim Sharawy");
+      formData.append("from_name", "Youssef Ali");
   
       // Append form data fields
       Object.entries(data).forEach(([key, value]) => {
