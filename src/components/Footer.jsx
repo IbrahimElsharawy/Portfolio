@@ -114,14 +114,14 @@ const Footer = () => {
                   <FaLinkedinIn />
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   to={""}
                   className="w-8 h-8 rounded-full bg-[#405DE6] flex justify-center items-center"
                 >
                   <CiInstagram />
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -158,20 +158,20 @@ const Footer = () => {
                 <FaLinkedinIn />
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 to={""}
                 className="w-8 h-8 rounded-full bg-[#405DE6] flex justify-center items-center"
               >
                 <CiInstagram />
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
         {/* TODO Add Company link */}
         <div className="text-black-2 text-center pb-8 pt-10 text-sm">
           All rights reserved{" "}
-          <Link to="" className="font-semibold">
+          <Link to="https://codecraft1.com/"  target="_blank" className="font-semibold">
             Code Craft
           </Link>{" "}
           &copy; {new Date().getFullYear()}
