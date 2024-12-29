@@ -74,9 +74,9 @@ function Home() {
                 <Link to={"https://www.linkedin.com/in/youssef-ali-%E4%BC%98%E7%91%9F%E5%A4%AB-7b0404272/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"}
                   target="_blank" className="px-2 py-2  "><FaLinkedinIn /></Link>
               </li>
-              <li className="border-[#CCD3D933] rounded-[2px] flex justify-center items-center border">
+              {/* <li className="border-[#CCD3D933] rounded-[2px] flex justify-center items-center border">
                 <Link to={""} className="px-2 py-2  "><CiInstagram /></Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
